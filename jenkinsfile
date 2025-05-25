@@ -6,7 +6,7 @@ pipeline {
         DEPLOY_TO = "production"
         REGION = "us-east-1"
         appVersion = ''
-        environment = 'dev'
+        environment = ''
     }
     options {
         disableConcurrentBuilds()
